@@ -155,7 +155,7 @@ patches = []
 
 # Speed limit patches
 if st.checkbox('Speed Limit Sport (SLS)'):
-    sls_speed = st.slider("Max Speed (SLS)", 1.0, 35.0, 25.0, 0.1)
+    sls_speed = st.slider("Max Speed (SLS)", 1.0, 60.0, 25.0, 0.1)
     patches.append(f'sls={sls_speed}')
 
 if st.checkbox('Speed Limit Drive (SLD)'):
